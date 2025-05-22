@@ -3,7 +3,9 @@ import React from 'react';
 const page = () => {
 	return (
 		<div>
-			<h1 className='text-4xl font-bold'>React Hook Form</h1>
+			<div className='page-width'>
+				<h1 className='text-4xl font-bold'>Next React Lab</h1>
+			</div>
 		</div>
 	);
 };
