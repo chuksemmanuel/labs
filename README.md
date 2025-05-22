@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# next-react-lab 🧪
 
-## Getting Started
+A personal lab space for learning, testing, and prototyping with **Next.js**, **React**, and related frontend libraries.
 
-First, run the development server:
+## 🚀 Purpose
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This repo serves as a launchpad for:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Experimenting with new libraries and APIs
+- Practicing React and Next.js architecture patterns
+- Prototyping UI/UX interactions and performance optimizations
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Each **experiment lives on its own branch** to keep things clean and isolated.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧪 Labs Index (Branches)
 
-## Learn More
+| Branch                                                                                    | Description                                 |
+| ----------------------------------------------------------------------------------------- | ------------------------------------------- |
+| [`react-hook-form`](https://github.com/chuksemmanuel/next-react-lab/tree/react-hook-form) | Testing form handling using React Hook Form |
 
-To learn more about Next.js, take a look at the following resources:
+More labs coming soon...
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧱 Stack (Varies by Lab)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Most experiments will use some combo of:
 
-## Deploy on Vercel
+- [Next.js](https://nextjs.org/) (App Router)
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Zustand](https://zustand-demo.pmnd.rs/), [React Hook Form](https://react-hook-form.com/), etc.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🗃️ Notes
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This is not a production-ready project — just a personal sandbox for learning and exploration.
+
+If you're here by accident — feel free to explore, but don’t expect polish. 🙃
+
+---
+
+Made with ☕️ and curiosity by [Chuks](https://github.com/chuksemmanuel)
