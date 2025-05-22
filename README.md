@@ -1,21 +1,41 @@
-# React Hook Form Lab
+# next-react-lab 🧪
 
-This lab explores how to use [React Hook Form](https://react-hook-form.com/) in a Next.js (App Router) environment.
+A personal lab space for learning, testing, and prototyping with **Next.js**, **React**, and related frontend libraries.
 
-## ✅ Goals
+## 🚀 Purpose
 
-- Set up form validation and error handling
-- Use controlled vs uncontrolled inputs
-- Integrate with Tailwind UI components
-- (Optional) Handle dynamic fields and form arrays
+This repo serves as a launchpad for:
 
-## 🔧 Stack
+- Experimenting with new libraries and APIs
+- Practicing React and Next.js architecture patterns
+- Prototyping UI/UX interactions and performance optimizations
 
-- Next.js (App Router)
-- React Hook Form
-- Tailwind CSS
-- TypeScript
+Each **experiment lives on its own branch** to keep things clean and isolated.
+
+## 🧪 Labs Index (Branches)
+
+| Branch                                                                                    | Description                                 |
+| ----------------------------------------------------------------------------------------- | ------------------------------------------- |
+| [`react-hook-form`](https://github.com/chuksemmanuel/next-react-lab/tree/react-hook-form) | Testing form handling using React Hook Form |
+
+More labs coming soon...
+
+## 🧱 Stack (Varies by Lab)
+
+Most experiments will use some combo of:
+
+- [Next.js](https://nextjs.org/) (App Router)
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Zustand](https://zustand-demo.pmnd.rs/), [React Hook Form](https://react-hook-form.com/), etc.
+
+## 🗃️ Notes
+
+This is not a production-ready project — just a personal sandbox for learning and exploration.
+
+If you're here by accident — feel free to explore, but don’t expect polish. 🙃
 
 ---
 
-This branch is experimental and self-contained.
+Made with ☕️ and curiosity by [Chuks](https://github.com/chuksemmanuel)
