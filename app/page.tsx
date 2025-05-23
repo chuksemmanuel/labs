@@ -1,9 +1,14 @@
-import React from 'react';
-
+'use client';
 const page = () => {
+	const handleSubmit = () => {};
+
 	return (
 		<div>
-			<h1 className='text-4xl font-bold'>React Hook Form</h1>
+			<form className='gap-2' onSubmit={handleSubmit}>
+				<input type='text' placeholder='email' />
+				<input type='password' placeholder='Password' />
+				<button type='submit'>Submit</button>
+			</form>
 		</div>
 	);
 };
