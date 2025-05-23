@@ -7,9 +7,16 @@
 @layer base {
 	body {
 		font-family: var(--font-montserrat);
+		@apply pt-4;
 	}
 }
 
-.page-width {
-	@apply m-auto max-w-[1200px] px-8 max-md:px-4;
+@layer utility {
+	.page-width {
+		@apply m-auto max-w-[1200px] px-8 max-md:px-4;
+	}
+
+	.section {
+		@apply mt-30 max-md:mt-15;
+	}
 }
