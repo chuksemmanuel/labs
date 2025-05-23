@@ -1,13 +1,12 @@
 @import 'tailwindcss';
 
 @theme inline {
-	--font-montserrat: var(--montserrat);
+	--font-montserrat: var(--font-montserrat);
 }
 
 @layer base {
 	body {
-		font-family: var(--font-montserrat);
-		@apply pt-4;
+		@apply pt-4 font-montserrat;
 	}
 }
 
