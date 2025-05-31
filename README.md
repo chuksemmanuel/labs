@@ -17,6 +17,7 @@ Each **experiment lives on its own branch** to keep things clean and isolated.
 | Branch                                                                                    | Description                                 |
 | ----------------------------------------------------------------------------------------- | ------------------------------------------- |
 | [`react-hook-form`](https://github.com/chuksemmanuel/next-react-lab/tree/react-hook-form) | Testing form handling using React Hook Form |
+| [`design-patterns`](https://github.com/chuksemmanuel/next-react-lab/tree/design-patterns) | Exploring popular design patterns in react  |
 
 More labs coming soon...
 
