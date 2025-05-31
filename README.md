@@ -1,6 +1,6 @@
 # React Hook Form Lab
 
-This lab explores design patterns in react following [Huxn react 50+hours monsterclass youtube video ](https://www.youtube.com/watch?v=M9O5AjEFzKw&list=PLfcolGBpaAWEhoZKFNAtrSznR3LCnla96&index=27)
+This lab explores design patterns in react following [Huxn react 50+hours monsterclass youtube video ](https://www.youtube.com/watch?v=M9O5AjEFzKw)
 
 ## ✅ Goals
 
@@ -12,6 +12,10 @@ This lab explores design patterns in react following [Huxn react 50+hours monste
 - React Hook Form
 - Tailwind CSS
 - TypeScript
+
+## ⏱️ Status
+
+⏸️ PAUSED
 
 ---
 
