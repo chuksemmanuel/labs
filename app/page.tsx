@@ -1,10 +1,10 @@
-import React from 'react';
+import WithoutTheTanStackQuery from '@/components/WithoutTheTanStackQuery';
 
 const page = () => {
 	return (
 		<div>
 			<div className='page-width'>
-				<h1 className='text-4xl font-bold'>Next React Lab</h1>
+				<WithoutTheTanStackQuery />
 			</div>
 		</div>
 	);
