@@ -1,10 +1,11 @@
-import WithoutTheTanStackQuery from '@/components/WithoutTheTanStackQuery';
+import WithTheTanStackQuery from '@/components/WithTheTanStackQuery';
 
 const page = () => {
 	return (
 		<div>
 			<div className='page-width'>
-				<WithoutTheTanStackQuery />
+				l
+				<WithTheTanStackQuery />
 			</div>
 		</div>
 	);
