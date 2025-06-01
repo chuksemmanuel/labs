@@ -1,10 +1,10 @@
-import RefreshInterval from '@/components/RefreshInterval';
+import FetchFromMultipleEndpoints from '@/components/FetchFromMultipleEndpoints';
 
 const page = () => {
 	return (
 		<div>
 			<div className='page-width'>
-				<RefreshInterval />
+				<FetchFromMultipleEndpoints />
 			</div>
 		</div>
 	);
