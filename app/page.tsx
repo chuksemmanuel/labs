@@ -1,10 +1,10 @@
-import StateTime from '@/components/StateTime';
+import RefreshInterval from '@/components/RefreshInterval';
 
 const page = () => {
 	return (
 		<div>
 			<div className='page-width'>
-				<StateTime />
+				<RefreshInterval />
 			</div>
 		</div>
 	);
