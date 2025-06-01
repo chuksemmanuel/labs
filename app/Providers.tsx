@@ -4,6 +4,8 @@
 // Since QueryClientProvider relies on useContext under the hood, we have to put 'use client' on top
 import { isServer, QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
+
 function makeQueryClient() {
 	return new QueryClient({
 		defaultOptions: {
@@ -39,5 +41,10 @@ export default function Providers({ children }: { children: React.ReactNode }) {
 	//       render if it suspends and there is no boundary
 	const queryClient = getQueryClient();
 
-	return <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>;
+	return (
+		<QueryClientProvider client={queryClient}>
+			{children}
+			<ReactQueryDevtools initialIsOpen={false} />
+		</QueryClientProvider>
+	);
 }

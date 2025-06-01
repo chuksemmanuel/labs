@@ -20,10 +20,10 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang='en'>
-			<Providers>
-				<body className={`${montserrat.variable} antialiased`}>{children}</body>
-			</Providers>
+		<html lang='en' suppressHydrationWarning>
+			<body className={`${montserrat.variable} antialiased`}>
+				<Providers>{children}</Providers>
+			</body>
 		</html>
 	);
 }
