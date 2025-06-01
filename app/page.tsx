@@ -1,11 +1,11 @@
-import WithTheTanStackQuery from '@/components/WithTheTanStackQuery';
+import Deduplication from '@/components/Deduplication';
 
 const page = () => {
 	return (
 		<div>
 			<div className='page-width'>
-				l
-				<WithTheTanStackQuery />
+				<Deduplication />
+				<Deduplication />
 			</div>
 		</div>
 	);
