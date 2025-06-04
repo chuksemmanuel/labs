@@ -1,10 +1,10 @@
-import MutatingData from '@/components/MutatingData';
+import Pagination from '@/components/Pagination';
 
 const page = () => {
 	return (
 		<div>
 			<div className='page-width'>
-				<MutatingData />
+				<Pagination />
 			</div>
 		</div>
 	);
