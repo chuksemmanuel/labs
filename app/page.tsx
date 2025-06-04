@@ -1,10 +1,10 @@
-import FetchFromMultipleEndpoints from '@/components/FetchFromMultipleEndpoints';
+import MutatingData from '@/components/MutatingData';
 
 const page = () => {
 	return (
 		<div>
 			<div className='page-width'>
-				<FetchFromMultipleEndpoints />
+				<MutatingData />
 			</div>
 		</div>
 	);
