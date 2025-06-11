@@ -19,3 +19,70 @@
 		@apply mt-30 max-md:mt-15;
 	}
 }
+
+.boxes {
+	display: grid;
+	gap: 1.2rem;
+	padding: 12px;
+	/* grid-template-columns: repeat(2, 1fr); */
+	grid-template-areas:
+		'one'
+		'two'
+		'three'
+		'four'
+		'five'
+		'six';
+}
+
+@media (min-width: 768px) {
+	.boxes {
+		grid-template-areas:
+			'one one two'
+			'three three three'
+			'four four five'
+			'six six six';
+	}
+
+	.boxes .box:nth-child(1) {
+		grid-area: one;
+	}
+	.boxes .box:nth-child(2) {
+		grid-area: two;
+	}
+	.boxes .box:nth-child(3) {
+		grid-area: three;
+	}
+	.boxes .box:nth-child(4) {
+		grid-area: four;
+	}
+	.boxes .box:nth-child(5) {
+		grid-area: five;
+	}
+	.boxes .box:nth-child(6) {
+		grid-area: six;
+	}
+
+	/* .boxes .box:nth-child(5) {
+		grid-column-start: 4; */
+	/* grid-row-start: 1;
+		grid-row-end: 4; */
+	/* grid-row: 1/4;
+	} */
+
+	/* .boxes .box:nth-child(6) {
+		grid-column: span 3;
+	} */
+}
+
+.box {
+	border-radius: 8px;
+}
+
+/* .box-span-2 {
+	grid-column: span 2;
+}
+
+.boxes .box:nth-child(6) {
+	grid-column: span 2;
+	grid-row-start: 4;
+} */
