@@ -20,7 +20,7 @@ Each **experiment lives on its own branch** to keep things clean and isolated.
 | [`design-patterns`](https://github.com/chuksemmanuel/next-react-lab/tree/design-patterns) | Exploring popular design patterns in react                     |
 | [`tanstack`](https://github.com/chuksemmanuel/next-react-lab/tree/tanstack)               | Using tanstack query to make server request and manage caching |
 | [`grids`](https://github.com/chuksemmanuel/next-react-lab/tree/grids)                     | A grid instead of flex box challanged                          |
-| [`superbase`](https://github.com/chuksemmanuel/next-react-lab/tree/superbase)             | Exploring superbase as a backend service                       |
+| [`supabase`](https://github.com/chuksemmanuel/next-react-lab/tree/supabase)               | Exploring supabase as a backend service                        |
 
 More labs coming...
 
