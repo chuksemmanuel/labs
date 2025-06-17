@@ -1,41 +1,79 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-/.pnp
+# === Dependencies ===
+node_modules/
+.pnp/
 .pnp.*
 .yarn/*
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
+.pnpm-debug.log*
 
-# testing
-/coverage
+# === Builds & Output ===
+dist/
+build/
+out/
+.next/
+android/
+ios/
+web-build/
+*.apk
+*.aab
 
-# next.js
-/.next/
-/out/
+# === Testing ===
+coverage/
+test-output/
 
-# production
-/build
+# === TypeScript ===
+*.tsbuildinfo
+next-env.d.ts
 
-# misc
-.DS_Store
-*.pem
+# === Environment Files ===
+.env
+.env.*.local
+.env.local
+.env.production
+.env.development
 
-# debug
+# === Logs & Debug ===
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
-.env*
+# === OS/System Files ===
+.DS_Store
+Thumbs.db
 
-# vercel
-.vercel
+# === IDEs ===
+.vscode/
+.idea/
+*.swp
 
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+# === Vercel / Netlify ===
+.vercel/
+.netlify/
+
+# === Expo / React Native ===
+.expo/
+.expo-shared/
+*.keystore
+*.jks
+*.hprof
+*.xcuserstate
+*.xcworkspace
+Pods/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+
+# === Misc ===
+*.pem
+*.log
+*.tgz
+*.zip
+*.bak
+*.tmp
+*.orig
+*.rej
+*.patch
