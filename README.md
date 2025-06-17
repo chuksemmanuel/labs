@@ -14,10 +14,13 @@ Each **experiment lives on its own branch** to keep things clean and isolated.
 
 ## 🧪 Labs Index (Branches)
 
-| Branch                                                                                    | Description                                 |
-| ----------------------------------------------------------------------------------------- | ------------------------------------------- |
-| [`react-hook-form`](https://github.com/chuksemmanuel/next-react-lab/tree/react-hook-form) | Testing form handling using React Hook Form |
-| [`design-patterns`](https://github.com/chuksemmanuel/next-react-lab/tree/design-patterns) | Exploring popular design patterns in react  |
+| Branch                                                                                    | Description                                                    |
+| ----------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| [`react-hook-form`](https://github.com/chuksemmanuel/next-react-lab/tree/react-hook-form) | Testing form handling using React Hook Form                    |
+| [`design-patterns`](https://github.com/chuksemmanuel/next-react-lab/tree/design-patterns) | Exploring popular design patterns in react                     |
+| [`tanstack`](https://github.com/chuksemmanuel/next-react-lab/tree/tanstack)               | Using tanstack query to make server request and manage caching |
+| [`grids`](https://github.com/chuksemmanuel/next-react-lab/tree/grids)                     | A grid instead of flex box challanged                          |
+| [`superbase`](https://github.com/chuksemmanuel/next-react-lab/tree/superbase)             | Exploring superbase as a backend service                       |
 
 More labs coming soon...
 
