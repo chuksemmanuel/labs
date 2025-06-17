@@ -1,6 +1,6 @@
 # next-react-lab 🧪
 
-A personal lab space for learning, testing, and prototyping with **Next.js**, **React**, and related frontend libraries.
+A personal lab space for learning, testing, and prototyping with **Next.js**, **React**, and related libraries.
 
 ## 🚀 Purpose
 
@@ -22,7 +22,7 @@ Each **experiment lives on its own branch** to keep things clean and isolated.
 | [`grids`](https://github.com/chuksemmanuel/next-react-lab/tree/grids)                     | A grid instead of flex box challanged                          |
 | [`superbase`](https://github.com/chuksemmanuel/next-react-lab/tree/superbase)             | Exploring superbase as a backend service                       |
 
-More labs coming soon...
+More labs coming...
 
 ## 🧱 Stack (Varies by Lab)
 
@@ -42,4 +42,4 @@ If you're here by accident — feel free to explore, but don’t expect polish. 
 
 ---
 
-Made with ☕️ and curiosity by [Chuks](https://github.com/chuksemmanuel)
+Made with ☕️ and curiosity.
