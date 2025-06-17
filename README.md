@@ -1,10 +1,9 @@
-# Superbase lab
+# Supabase lab
 
-This lab explores using [Superbase](https://supabase.com/) as a Backend.
+This lab explores using [Supabase](https://supabase.com/) as a Backend.
 
 ## ✅ Goals
 
-- Learn superbase
-- Explore database schema
-- Explore authentication and role based authorization
-- Integrate superbase with React
+- Learn supabase
+- Explore supabase database, Authtentication, and RLS
+- Integrate supabase with React
