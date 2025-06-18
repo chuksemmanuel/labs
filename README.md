@@ -1,6 +1,6 @@
 # labs 🧪
 
-A playground for testing stuff across the full stack — from Frontend libraries to Backend frameworks, mobile apps with React Native app and CLI scripts.
+A playground for testing stuff across the full stack — from Frontend libraries to Backend frameworks, mobile apps with React Native and CLI scripts.
 
 ## 🛠️ Purpose
 
