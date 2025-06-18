@@ -1,7 +1,9 @@
-# Nextjs lab
+# Supabase and tanstack in nextjs
 
-This is a starter template for spinning up new [Nextjs](https://nextjs.org/) apps
+This lab explores using tanstack query to make cached-optimized request to supabase.
+
+Credit [Supabase YT](https://www.youtube.com/watch?v=Z4L_UE0hVmo).
 
 ## ✅ Goals
 
-- Nextjs starter template
+- Learn how to make supabase request using tanstack query
