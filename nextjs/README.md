@@ -1,16 +1,14 @@
-# next-react-lab 🧪
+# nextjs lab 🧪
 
 A personal lab space for learning, testing, and prototyping with **Next.js**, **React**, and related libraries.
 
 ## 🚀 Purpose
 
-This repo serves as a launchpad for:
+This lab is used for:
 
 - Experimenting with new libraries and APIs
-- Practicing React and Next.js architecture patterns
-- Prototyping UI/UX interactions and performance optimizations
-
-Each **experiment lives on its own branch** to keep things clean and isolated.
+- Practicing frontend architecture and performance
+- Prototyping UI/UX ideas and design systems
 
 ## 🧪 Labs Index (Branches)
 
@@ -21,25 +19,25 @@ Each **experiment lives on its own branch** to keep things clean and isolated.
 | [`tanstack`](https://github.com/chuksemmanuel/next-react-lab/tree/tanstack)               | Using tanstack query to make server request and manage caching |
 | [`grids`](https://github.com/chuksemmanuel/next-react-lab/tree/grids)                     | A grid instead of flex box challanged                          |
 | [`supabase`](https://github.com/chuksemmanuel/next-react-lab/tree/supabase)               | Exploring supabase as a backend service                        |
+| ...                                                                                       | more later                                                     |
 
-More labs coming...
+## 🧱 Stack (May vary)
 
-## 🧱 Stack (Varies by Lab)
-
-Most experiments will use some combo of:
+This lab often uses:
 
 - [Next.js](https://nextjs.org/) (App Router)
 - [React](https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [Zustand](https://zustand-demo.pmnd.rs/), [React Hook Form](https://react-hook-form.com/), etc.
+- [Zustand](https://zustand-demo.pmnd.rs/)
+- [React Hook Form](https://react-hook-form.com/), etc.
 
 ## 🗃️ Notes
 
-This is not a production-ready project — just a personal sandbox for learning and exploration.
+This is not a production app — just a sandbox for exploration and learning.
 
-If you're here by accident — feel free to explore, but don’t expect polish. 🙃
+If you're browsing through: welcome. Expect bugs, randomness, and unfinished ideas. 🙃
 
 ---
 
-Made with ☕️ and curiosity.
+Made with ☕️, console.logs, and curiosity.
