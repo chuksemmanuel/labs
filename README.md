@@ -1,6 +1,4 @@
-# labs 🧪
-
-A playground for testing stuff across the full stack — from Frontend libraries to Backend frameworks, mobile apps with React Native and CLI scripts.
+This is a playground for testing stuff across the stack — from Frontend libraries to Backend frameworks, mobile apps with React Native and CLI scripts.
 
 ## 🛠️ Purpose
 
@@ -8,19 +6,27 @@ A playground for testing stuff across the full stack — from Frontend libraries
 - Keep experiments isolated, low-stakes, and documented (kind of)
 - Learn by doing, breaking, and rebuilding
 
-## 🧪 Labs Index (Branches)
+## 📂 Starter Templates
 
-| Branch                                                                                    | Description                                                    |
-| ----------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
-| [`react-hook-form`](https://github.com/chuksemmanuel/next-react-lab/tree/react-hook-form) | Testing form handling using React Hook Form                    |
-| [`design-patterns`](https://github.com/chuksemmanuel/next-react-lab/tree/design-patterns) | Exploring popular design patterns in react                     |
-| [`tanstack`](https://github.com/chuksemmanuel/next-react-lab/tree/tanstack)               | Using tanstack query to make server request and manage caching |
-| [`grids`](https://github.com/chuksemmanuel/next-react-lab/tree/grids)                     | A grid instead of flex box challanged                          |
-| [`supabase`](https://github.com/chuksemmanuel/next-react-lab/tree/supabase)               | Exploring supabase as a backend service                        |
-| ...                                                                                       | more later                                                     |
+Each folder includes a minimal starter setup for its respective framework.
 
-Each folder has a starter template
+| Folder                | Description                     |
+| --------------------- | ------------------------------- |
+| [`Nextjs`](./nextjs/) | Next.js starter with the basics |
+
+## 🧪 Labs (Branches)
+
+Labs live in branches and each explores a specific concept, tool, or pattern.
+
+| Branch                                                                                    | Description                                 |
+| ----------------------------------------------------------------------------------------- | ------------------------------------------- |
+| [`react-hook-form`](https://github.com/chuksemmanuel/next-react-lab/tree/react-hook-form) | Handling forms with React Hook Form         |
+| [`design-patterns`](https://github.com/chuksemmanuel/next-react-lab/tree/design-patterns) | Implementing common React design patterns   |
+| [`tanstack`](https://github.com/chuksemmanuel/next-react-lab/tree/tanstack)               | Server state management with TanStack Query |
+| [`grids`](https://github.com/chuksemmanuel/next-react-lab/tree/grids)                     | CSS grid challenge                          |
+| [`supabase`](https://github.com/chuksemmanuel/next-react-lab/tree/supabase)               | Using Supabase as a BaaS platform           |
+| ...                                                                                       | more to come                                |
 
 ---
 
-Built with ☕️, curiosity, stack trace, youtube university...and of course chatgpt.
+Made with ☕️, curiosity, stack traces, YouTube University...and a good dose of chatgpt..
