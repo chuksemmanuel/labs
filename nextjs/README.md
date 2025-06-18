@@ -1,7 +1,7 @@
 # Nextjs lab
 
-This lab explores using [Nextjs](https://nextjs.org/)
+This is a starter template for spinning up new [Nextjs](https://nextjs.org/) apps
 
 ## ✅ Goals
 
-- Explore Nextjs
+- Nextjs starter template
