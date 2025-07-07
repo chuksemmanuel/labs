@@ -1,13 +1,7 @@
-import React from 'react';
+import App from './App';
 
 const page = () => {
-	return (
-		<div>
-			<div className='page-width'>
-				<h1 className='text-4xl font-bold'>Next React Lab</h1>
-			</div>
-		</div>
-	);
+	return <App />;
 };
 
 export default page;
