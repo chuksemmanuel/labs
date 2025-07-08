@@ -7,7 +7,7 @@ import { useLiveQuery } from 'dexie-react-hooks';
 interface Todo {
 	id: number;
 	task: string;
-	completed: boolean;
+	completed: 0 | 1; // we use 0 for false and 1 for true because Dexie does not support boolean types directly
 	date: Date;
 }
 
@@ -25,12 +25,16 @@ const App = () => {
 	const [taskField, setTaskField] = useState('');
 	const allItems = useLiveQuery(() => todos.toArray(), []);
 
+	const completedItems = useLiveQuery(() => todos.where('completed').equals(1).toArray(), []);
+
+	console.log('Completed Items:', completedItems);
+
 	const addTask = async (e: React.FormEvent) => {
 		e.preventDefault();
 
 		await todos.add({
 			task: taskField,
-			completed: false,
+			completed: 0,
 			date: new Date(),
 		});
 
@@ -65,13 +69,13 @@ const App = () => {
 										<label>
 											<input
 												type='checkbox'
-												checked={item.completed}
+												checked={item.completed === 1}
 												className='checkbox-blue'
 												onChange={async () => {
-													await todos.update(item.id, { completed: !item.completed });
+													await todos.update(item.id, { completed: item.completed === 1 ? 0 : 1 });
 												}}
 											/>
-											<span className={item.completed ? 'black-tex strike-text' : 'black-tex'}>{item.task}</span>
+											<span className={item.completed === 1 ? 'black-tex strike-text' : 'black-tex'}>{item.task}</span>
 										</label>
 									</p>
 									<i
